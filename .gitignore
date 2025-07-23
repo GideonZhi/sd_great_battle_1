@@ -22,7 +22,7 @@
 *.sjs
 *.dll
 *.zip
-*.bin
+/*.bin
 *.7z
 *.dat
 *.ext
@@ -62,7 +62,7 @@ docs/
 /*.tbl
 ext/
 *.txt_BAK
-logobits/
+/logobits/
 *.smc
 *.srm
 *.pal
