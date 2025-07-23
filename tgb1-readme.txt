@@ -1,6 +1,6 @@
 THE GREAT BATTLE
 ENGLISH TRANSLATION V1.00
-Copyright 2019 by Aeon Genesis
+Copyright 2018 by Aeon Genesis
 http://agtp.romhack.net
 
 ToC
@@ -34,7 +34,7 @@ series.
 2.Patch History
 ---------------
 
-December 24, 2019 - Initial Version 1.0 Release
+March 6 - Initial Version 1.0 Release
 
 ---------------
 3.Patch Credits
