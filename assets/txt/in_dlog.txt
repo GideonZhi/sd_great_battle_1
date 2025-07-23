@@ -1,0 +1,1055 @@
+#SMA("LOROM00")
+#VAR(dialogue,TABLE)
+#VAR(cttop,TABLE)
+#VAR(ctbot,TABLE)
+#ADDTBL("./assets/txt/gb1e.tbl", dialogue)
+#ADDTBL("./assets/txt/cttop.tbl", cttop)
+#ADDTBL("./assets/txt/ctbot.tbl", ctbot)
+#ACTIVETBL(dialogue)
+#EMBTYPE("LOROM00", 16, $00)
+
+
+#JMP($A990E, $AABE8)
+
+//[$0A990E] 
+#W16($A988C)
+//　かんきょうかんりそうちのかんせいによりへいわをてにした　ＳＤネイション<line>
+//　しかし　あるひ　そうちがぼうそうし<line>
+//じゃあくなかいぶつたちが　よみがえって<line>
+//しまった、、、、、　　　　<$DD><end>
+Thanks to the Climate<line>
+Control System, the SD<line>
+Nation achieved peace.<line>
+But it malfunctioned one<line>
+day, and revived all sorts<line>
+of evil creatures...            <$DD><end>
+
+//[$0A9969]
+#W16($A988E)
+//　Ｖ３　タロウそしてナイトガンダムが<line>
+//げんいんのきゅうめいにのりだしたが<line>
+//しょうそくをたち　ひとつきがながれた、、<line>
+//　　　　<$DD><end>
+V3, Taro, and Knight Gundam<line>
+set off to find the cause,<line>
+but after a month without<line>
+reports they were declared<line>
+missing in action.            <$DD><end>
+
+//[$0A99A9]
+#W16($A9890)
+//　そして　だい２じちょうさたいとして<line>
+//ライダー１ごう　ウルトラマン　ガンダム<line>
+//が　メンバーにえらばれたのだった　　　<line>
+//　　<$DD><end>
+A new team was sent to<line>
+investigate. Its members<line>
+were Rider 1, Ultraman,<line>
+and Gundam.            <$DD><end>
+
+//[$0A99E8]
+#W16($A9892)
+//　３にんは　たがいのじゃくてんを<line>
+//おぎないあい　ふあんと　きぼうをむねに<line>
+//ちょうさへと　むかった　　　　<$DD><end>
+Each one made up for the<line>
+others' shortcomings.<line>
+With both uneasiness and<line>
+hope, they began their<line>
+investigation.            <$DD><end>
+
+//[$0A9A1E]
+#W16($A9894)
+//「フォッフォッフォッ！おれはバルタンせいじんこのさきへ　いきたければ、このおれを<line>
+//たおしてみろ！」<$DB><end>
+"Hohoho! I'm Alien Baltan!<line>
+You'll have to defeat me<line>
+if you want to pass!"<$DB><end>
+
+//[$0A9A51]
+#W16($A9896)
+//「うわーーー！！　おっ、おれがわるかった。<line>
+//なかまになるから　たすけてくれ。」<$DB><end>
+"Waaaah! I-I'm sorry!<line>
+I'll join your cause.<line>
+Just don't hurt me!"<$DB><end>
+
+//[$0A9A7A]
+#W16($A9898)
+//「ナンダ　オマエハ？<line>
+//コノサキハ　タチイリキンシダゾ！<line>
+//ヒキカエサナケレバ　シンデモラウゾ！」<$DB><end>
+"WHO ARE YOU? THIS AREA IS<line>
+OFF LIMITS! TRESPASSERS<line>
+WILL BE ELIMINATED!"<$DB><end>
+
+//[$0A9AAB]
+#W16($A989A)
+//「ボクは、<$D6>グモン。<line>
+//ガラモンじゃないから　あんしんして。<$DB><line>
+//　とくしゅこうげきアイテムを　あげるから<line>
+//これからさきの　たたかいに、やくだててね。<line>
+//それと　ライフも　かいふくしてあげるね。」<$DB><end>
+"I'm Pigmon. Don't worry,<line>
+I'm not Garamon.<$DB><line>
+I'll give you this<line>
+Special Attack Item.<line>
+Use it well, okay?<$DB><line>
+I'll also restore your<line>
+health."<$DB><end>
+
+//[$0A9B0C]
+#W16($A989C)
+//「ギャーース！　オレはキングザウルス３せい。オレのなわばりに、はいりこむとは　ゆるせん。やっつけてやる！」<$DB><end>
+"*ROAAAR*<$DB><line>
+I'm Kingsaurus III!<line>
+How dare you enter my<line>
+domain?!"<$DB><end>
+
+//[$0A9B43]
+#W16($A989E)
+//「よくも　こぶんたちをかわいがってくれたな！１００ばいにして　かえしてやる！！」<$DB><end>
+"What have you done to<line>
+my men?! You'll pay for<line>
+this!"<$DB><end>
+
+//[$0A9B6D]
+#W16($A98A0)
+//「なかまたちは、ここには　いないようだ。<line>
+//それにしても、このかいじゅうたちをあやつっているのは　いったい　なにものなんだ、、？」<$DB><end>
+"Our friends don't seem<line>
+to be here...<$DB><line>
+But, all these monsters!<line>
+Who could be behind all<line>
+this?"<$DB><end>
+
+//[$0A9BAF]
+#W16($A98A2)
+//　ついに　だい１のボス　ゼットンを<line>
+//たおした３にん　しかし　そこには<line>
+//なかまたちの　すがたはなかった<line>
+//　そして３にんが　つぎにむかったのは<line>
+//ショッカーきちであった！　　　　<$DD><end>
+The heroes defeated the<line>
+first boss, Zetton. However,<line>
+their friends were nowhere<line>
+in sight. They made haste<line>
+for the next area:<line>
+Shocker's base!            <$DD><end>
+
+//[$0A9C07]
+#W16($A98A4)
+//「おれさまは、コブラおとこ！<line>
+//このさきには、すすません！！」<$DB><end>
+"I'm Cobra Man!<line>
+You shall not pass!"<$DB><end>
+
+//[$0A9C27]
+#W16($A98A6)
+//「われわれは」<line>
+//「われわれは」<line>
+//「われわれは」<$DB><line>
+//「せんとういん３にんしゅう」<line>
+//「３にんしゅう」<line>
+//「３にんしゅう」<$DB><line>
+//「しょうぶだ！」<line>
+//「しょうぶだ！！」<line>
+//「しょうぶだ！！！」<$DB><end>
+"We are..."<line>
+  "...are..."<line>
+    "...are..."<$DB><line>
+"The Three Combatmen!"<line>
+  "...men!"<line>
+    "...men!"<$DB><line>
+"Prepare to die!"<line>
+  "...die!"<line>
+    "...die!"<$DB><end>
+
+//[$0A9C81]
+#W16($A98A8)
+//「ボクは、モグラじゅうじん。<line>
+//この、<$D5>ワーアッ<$D7>アイテムをあげるから<line>
+//ぼくをいじめる、ショッカーをたおして！」<$DB><end>
+"I'm Mogura Beastman.<line>
+Take this Power Up Item.<$DB><line>
+Please, defeat those<line>
+mean Shocker guys!"<$DB><end>
+
+//[$0A9CBA]
+#W16($A98AA)
+//「オレのミサイルこうげき、よくぞかわした<line>
+//Ｖ３は　このさきのへやに　とらえてある。<line>
+//たすけたければ　まずは　このおれを<$DB><line>
+//たおしてみろ！　いくぞ！！」<$DB><end>
+"Good job evading my<line>
+missiles! V3 is our<line>
+captive.<$DB><line>
+You'll find him beyond<line>
+this area...<$DB><line>
+But you'll have to beat<line>
+me first if you want to<line>
+save him!"<$DB><end>
+
+//[$0A9D07]
+#W16($A98AC)
+//「おれは、こうてつさんぼう。<line>
+//なんだおまえは、ずぶぬれではないか。<line>
+//　そんなすがたで、ボーンファイターさまに<$DB><line>
+//あわせるわけにはいかぬ。<line>
+//きさまのような<line>
+//ぶれいなやつは、こうしてやる！！」<$DB><end>
+"I'm Staff Officer<line>
+Steel, and you are<line>
+drenched!<$DB><line>
+I cannot let you meet<line>
+master Bone Fighter<line>
+looking like that!<$DB><line>
+I shall teach you proper<line>
+etiquette!"<$DB><end>
+
+//[$0A9D67]
+#W16($A98AE)
+//「オレは　このきちをしきる<line>
+//ボーンファイターだ。<line>
+//Ｖ３はここにいるぞ！<$DB><line>
+//こいつをしょけいするまえに　まずは<line>
+//きさまから、ちまつりにあげてやる！！」<$DB><end>
+"I'm Bone Fighter, the<line>
+commander of this base.<line>
+V3 is right here.<$DB><line>
+I was about to execute<line>
+him...<$DB><line>
+... but it can wait<line>
+until after I've<line>
+dealt with you!!"<$DB><end>
+
+//[$0A9DB3]
+#W16($A98B0)
+//「ふーっ　こんなヤツははじめてみた<line>
+//いったい、なにものなんだ、、、どうやら<line>
+//こんどのたたかいは、ながくなりそうだぞ！」<$DB><end>
+"Whew! We've never seen<line>
+anyone like him before!<$DB><line>
+Where did he come<line>
+from...?<$DB><line>
+This might be tougher<line>
+than we thought!"<$DB><end>
+
+//[$0A9DF0]
+#W16($A98B2)
+//「ありがとう！おかげで、たすかったよ。<line>
+//どうやらタロウたちは、うちゅうせんで<line>
+//どこかへ、つれていかれたらしい。<$DB><line>
+//はやくあとを、おいかけよう。」<$DB><end>
+"Thanks! I owe you one!<$DB><line>
+I overheard that Taro<line>
+was taken aboard a<line>
+spaceship.<$DB><line>
+We've got to go after<line>
+him!"<$DB><end>
+
+//[$0A9E3A]
+#W16($A98B4)
+//Ｖ３のきゅうしゅつにせいこうし　ともに<line>
+//たたかうけついを　かためた４にんは<line>
+//さらにタロウを　たすけだすため　てき<line>
+//うちゅうきちへと　しのびこんだ　　　　<$DD><end>
+After the rescue, V3 joined<line>
+the team. The four heroes<line>
+then infiltrated the enemy<line>
+spaceship in order to save<line>
+Taro...            <$DD><end>
+
+//[$0A9E88]
+#W16($A98B6)
+//「ボクは、ハロ。ナイトガンダムたちと<line>
+//はぐれちゃった。とくしゅぶきを、あずかって<line>
+//いるから、これではやくみんなをたすけて。」<$DB><end>
+"Hello, I'm Haro! I got<line>
+separated from Knight<line>
+Gundam.<$DB><line>
+Take this Special<line>
+Weapon. Please save<line>
+everyone!"<$DB><end>
+
+//[$0A9EC8]
+#W16($A98B8)
+//「なによあんた？　このあたし、キュベレイを<line>
+//たおそうっていうの？<line>
+//おもしろいわ！かかってきなさい！！」<$DB><end>
+"What's this? You say<line>
+you'll defeat me,<line>
+Qubeley? How amusing!"<$DB><end>
+
+//[$0A9EFD]
+#W16($A98BA)
+//「おれは、ナイトサザビー。　おれのしかけた<line>
+//バクダンちたいを　ぬけてくるとは、<line>
+//なんてやつだ。ゆるせん！<$DB><line>
+//これでもくらえ！！」<$DB><end>
+"I'm Knight Sazabi. I<line>
+can't believe you made<line>
+it past my minefield!<$DB><line>
+But it's not over yet!"<$DB><end>
+
+//[$0A9F3F]
+#W16($A98BC)
+//「ヒエーッ！　バラバラになってしまった！<line>
+//たのむ、ひろって　くみたててくれ！　たすけてくれたら　あんたたちのなかまになるよ！」<$DB><end>
+"Eep! I'm in pieces!<$DB><line>
+Please, put me back<line>
+together and I'll join<line>
+your cause!"<$DB><end>
+
+//[$0A9F80]
+#W16($A98BE)
+//「フッフッフッ　このおれを、シャアザクと<line>
+//しっていながら、かかってくるとは<line>
+//バカなやつめ！いくぞ！！」<$DB><end>
+"Heheheh. Fools! I'm<line>
+Char Zaku!<$DB><line>
+Do you really think you<line>
+have it in you to<line>
+defeat me?"<$DB><end>
+
+//[$0A9FB5]
+#W16($A98C0)
+//「おれは、ガズＬ。」「おれは、ガズＲ。」<line>
+//「からだはべつでも」「こころはひとつ」<line>
+//「いくぞ！」「おう！！」<$DB><end>
+"I'm Gaz-L."<line>
+"I'm Gaz-R."<$DB><line>
+"We may be two..."<line>
+"But our hearts beat<line>
+as one."<$DB><line>
+"Here we go!"<line>
+"Yeah!"<$DB><end>
+
+//[$0A9FEC]
+#W16($A98C2)
+//「わたしは、ジオング。このきちを<line>
+//つかさどるものだ。タロウたちを　たすけにきたようだが、タロウはここには　いないぞ！<$DB><line>
+//　しょけいのため、すでにクリスタルキャッスルにはこんだ。　いっ<$D4>おそかったようだな。<line>
+//どのみちおまえの　いのちは　これまでだ！<$DB><line>
+//いままでたおされた　ぶかたちのおれい、<line>
+//　たっ<$D2>りさせてもらうぞ！　しねい！！」<$DB><end>
+"I'm Zeong, the<line>
+commander of this<line>
+base.<$DB><line>
+You want to free Taro,<line>
+don't you? Too bad!<line>
+He's not here!<$DB><line>
+He's been taken to the<line>
+Crystal Castle for his<line>
+execution.<$DB><line>
+It's too late for him...<line>
+and it's too late for<line>
+you!<$DB><line>
+I'll get revenge for<line>
+all my soldiers! Die!!"<$DB><end>
+
+//[$0AA093]
+#W16($A98C4)
+//「じかんがない！<line>
+//クリスタルキャッスルにいそごう。」<$DB><end>
+"No time to waste!<line>
+To the Crystal Castle!"<$DB><end>
+
+//[$0AA0AF]
+#W16($A98C6)
+//４にんは　ジオングから　タロウしょけいのしらせをきかされ<line>
+//しょけいを　そしするため　いそいで<line>
+//クリスタルキャッスルへ　むかった　　　<$DD><end>
+The four heroes learned from<line>
+Zeong that Taro would be<line>
+executed soon. They hurried<line>
+to the Crystal Castle to<line>
+stop the execution.            <$DD><end>
+
+//[$0AA0F3]
+#W16($A98C8)
+//「われわれは、いままでセブンいがい<line>
+//いかなる　たたかいにも　まけたことのない<line>
+//むてきの　ガッツせいじんだ！<$DB><line>
+//おまえなんか　ひとひねりでたおしてやるわ」<$DB><end>
+"We are the invincible<line>
+Alien Guts!<$DB><line>
+Only Seven managed to<line>
+defeat us! But you?<line>
+You'll be crushed!"<$DB><end>
+
+//[$0AA141]
+#W16($A98CA)
+//「やぁ、またあったね。<line>
+//そろそろてきも　つよくなってきたから<line>
+//きをひきしめて、がんばってね。」<$DB><end>
+"Hey there.<line>
+You've come a long way.<$DB><line>
+The enemies you face<line>
+grow ever stronger, so<line>
+steel yourself!<$DB><line>
+Good luck!"<$DB><end>
+
+//[$0AA172]
+#W16($A98CC)
+//「おれは、うちゅういち　つよいとおもっているヒッ<$D9>リトだ！　　いくぞ！！」<$DB><end>
+"I'm Hipporito,<line>
+unmatched in all the<line>
+universe!<$DB><line>
+Here I come!"<$DB><end>
+
+//[$0AA199]
+#W16($A98CE)
+//「クェーッ！　おれはバードン。<line>
+//クェーッ！　かってゾフィさえも、<line>
+//たおしたことが　あるんだぞ。<$DB><line>
+//クェーーッ！　これでもくらえ！！」<$DB><end>
+"*squeal* I'm Birdon.<line>
+*squeal* I once defeated<line>
+Zoffy.<$DB><line>
+*squeal* And now I'll<line>
+defeat YOU!"<$DB><end>
+
+//[$0AA1DD]
+#W16($A98D0)
+//「おれのなは、クリスタルドラゴン。<line>
+//じぶんからやってくるとは　おろかなやつ。<line>
+//タロウともども　まとめてかたづけてやる！」<$DB><end>
+"I'm Crystal Dragon.<$DB><line>
+You fools sealed your<line>
+fate when you challenged<line>
+me...<$DB><line>
+You're going to die<line>
+alongside Taro!"<$DB><end>
+
+//[$0AA21B]
+#W16($A98D2)
+//「ありがとう、たすかったよ。<line>
+//でも、ナイトガンダムがひとりで　てきの<line>
+//わくせいに　のりこんで　しまったんだ！<$DB><line>
+//　はやくえんごにいこう」<$DB><end>
+"Thank you! But Knight<line>
+Gundam went to the enemy<line>
+planet alone.<$DB><line>
+We have to hurry!"<$DB><end>
+
+//[$0AA261]
+#W16($A98D4)
+//　ひとりで　てきちへ　のりこんで<line>
+//しまった　ナイトガンダムをおって<line>
+//５にんは　てきのきちである<line>
+//わくせいへと　やってきた　　　　<$DD><end>
+Knight Gundam marched alone<line>
+towards the enemy planet.<line>
+The five heroes retraced his<line>
+steps, heading for the enemy<line>
+homeworld...            <$DD><end>
+
+//[$0AA2A3]
+#W16($A98D6)
+//「おまえのしっ<$D0>いでボーンファイターさまは、しんでしまったではないか！！　このばで<line>
+//しょけいしてやるから、かくごしろ！！<$DB><line>
+//「あっっ！おまえたちは、<line>
+//ボーンファイターさまをころした、<line>
+//ちょうほんにん！！<$DB><line>
+//まずおまえたちから　しょけいしてやる！！」<$DB><end>
+"Lord Bone Fighter died<line>
+because of your failure,<line>
+Ambassador Hell!<$DB><line>
+Your life is forfeit!"<$DB><line>
+"Ah! The killers show<line>
+their faces!<$DB><line>
+I get to avenge Lord<line>
+Bone Fighter!"<$DB><end>
+
+//[$0AA321]
+#W16($A98D8)
+//「なかまを　しょけい　しようとするやつらと<line>
+//くむのは、もういやぢゃ。やつらを　たおしに<line>
+//いくなら、わしにも　てつだわせてくれ。」<$DB><end>
+"I can't work for<line>
+someone willing to kill<line>
+a comrade.<$DB><line>
+You know what? I'm going<line>
+to join your cause. I've<line>
+had it with them."<$DB><end>
+
+//[$0AA363]
+#W16($A98DA)
+//「じごくたいしを　つれだしたのは、<line>
+//おまえらか？<line>
+//われらの　おきてだ！まとめてしぬがいい。」<$DB><end>
+"Why did you save<line>
+Ambassador Hell? He was<line>
+up for execution!<$DB><line>
+Now YOU will die in<line>
+his place!"<$DB><end>
+
+//[$0AA393]
+#W16($A98DC)
+//「わしは、くらやみたいし。<line>
+//いとこの　じごくたいしが、せわになって<line>
+//いるようだな。<$DB><line>
+//　とくしゅアイテムを　やるから<line>
+//これからもたのむぞ。」<$DB><end>
+"I'm Ambassador<line>
+Darkness.<$DB><line>
+Thanks for saving my<line>
+cousin, Ambassador Hell.<$DB><line>
+I'll give you a Special<line>
+Item. Keep up the good<line>
+work."<$DB><end>
+
+#JMP($AD100, $AFFFF)
+
+//[$0AA3DB]
+#W16($A98DE)
+//「ここのボスは、デブデダビデ。いまじぶんの<line>
+//からだを　かいぞうしているんだ。<line>
+//はやく　たおしにいくんだ！<$DB><line>
+//やつのからだが　かんせいしないうちに、、、<line>
+//　さぁ、ライフをあげるからいそいで！！」<$DB><end>
+"The boss of this area<line>
+is Debudedabide.<$DB><line>
+He's currently having his<line>
+body enhanced...<$DB><line>
+You have to defeat him<line>
+before the procedure<line>
+is complete,<$DB><line>
+or he'll be unbeatable!<line>
+Here, I'll restore your<line>
+life. Now hurry!<$DB><end>
+
+//[$0AA43D]
+#W16($A98E0)
+//「あたしは、ハチおんな。<line>
+//　なによ！　おんなだからって　なめないで！」<$DB><end>
+"I'm Bee Woman, and I'm<line>
+just as good as any<line>
+man!"<$DB><end>
+
+//[$0AA462]
+#W16($A98E2)
+//「われこそは　ア<$D9>ロガイスト。<line>
+//おあそびは、もうおわりだ。<line>
+//ここで、しんでもらうぞ！！」<$DB><end>
+"My name is Apollo<line>
+Geist. Playtime's over.<line>
+Prepare to die!!"<$DB><end>
+
+//[$0AA490]
+#W16($A98E4)
+//「やっと、てきぼせいに　たどりついたけど<line>
+//このさき　なにが　まちうけているのだろう？<line>
+//ナイトガンダムは　ぶじだろうか？」<$DB><end>
+"We finally found their<line>
+base.<$DB><line>
+Who knows what they have<line>
+in store for us?<$DB><line>
+Hopefully Knight Gundam<line>
+is still all right!"<$DB><end>
+
+//[$0AA4CE]
+#W16($A98E6)
+//ようがんに　おおわれた　ちひょうを<line>
+//くまなく　さがしたが　ナイトガンダムの<line>
+//すがたは　どこにも　みあたらなかった<line>
+//　５にんは　さらに　わくせいないぶへと<line>
+//すすんでいった　　　　<$DD><end>
+They searched everywhere<line>
+they could on the lava-<line>
+covered surface, but Knight<line>
+Gundam was nowhere in sight.<line>
+They continued their search<line>
+beneath the surface...            <$DD><end>
+
+//[$0AA528]
+#W16($A98E8)
+//「わたしは、ナイトひゃくしき。<line>
+//ここは、どうやら　てきのけんきゅうじょ<line>
+//の、ようだな。<$DB><line>
+//さきほど、ナイトガンダムが、てきに<line>
+//つれていかれるのをみた。<line>
+//もし、かれを　たすけてくれるのなら<$DB><line>
+//わたしの　とくしゅアイテムを、さずけよう。さぁ　いそぐのだ！」<$DB><end>
+"I'm Knight Hyaku Shiki.<line>
+It looks like this is<line>
+their main laboratory.<$DB><line>
+It seems Knight Gundam<line>
+was captured fairly<line>
+recently.<$DB><line>
+There's not much else I<line>
+can do but give you this<line>
+Special Item.<$DB><line>
+Now go!<line>
+You must save him!<$DB><end>
+
+//[$0AA5A8]
+#W16($A98EA)
+//「やぁ、ＳＤヒーローのみんな！<line>
+//ボクのなまえは、ロア。<line>
+//これからの　たたかいにそなえて、ライフと<$DB><line>
+//とくしゅぶきを　ＭＡＸにしてあげる！<line>
+//ガンバッテね！」<$DB><end>
+"Hey there, SD Heroes!<line>
+Name's Roar.<$DB><line>
+You have a harsh journey<line>
+ahead of you.<$DB><line>
+I'll raise your Health<line>
+and your Special Weapon<line>
+to their max values.<$DB><line>
+Good luck!"<$DB><end>
+
+//[$0AA5F7]
+#W16($A98EC)
+//「やっとめしのじかんか。<line>
+//おっ！いきのよさそうなのが、<line>
+//はいって　きやがったぜ！<$DB><line>
+//どれ、いただくとするか」<$DB><end>
+"I'm starving. Is it<line>
+lunch time yet? Oh, hey<line>
+there! Come on in!<$DB><line>
+You look delicious!<line>
+Time to dig in!"<$DB><end>
+
+//[$0AA62F]
+#W16($A98EE)
+//「おお！　おまえも　できたばかりの<line>
+//しんせいひんか？　おれはビグザム、ちょっと<line>
+//うでだめしさせてもらう。　いくぞ！！」<$DB><end>
+"Ah, you must be the<line>
+latest products. Name's<line>
+Big Zam.<$DB><line>
+Let's see how good the<line>
+new models are!"<$DB><end>
+
+//[$0AA66C]
+#W16($A98F0)
+//「よく、こんなおくまで　これたな。<line>
+//ほうびに、このサイコガンダムさまが<line>
+//じきじきに、たおしてやる。」<$DB><end>
+"Well done getting this<line>
+far! As a reward...<$DB><line>
+I, Psyco Gundam, will<line>
+knock you all down!"<$DB><end>
+
+//[$0AA6A0]
+#W16($A98F2)
+//「ワッハッハッハッ！<line>
+//ひとあし、おそかったようだな。<line>
+//きのどくだが、ナイトガンダムは<$DB><line>
+//このデブデダビデさまが、ぶひんとして<line>
+//からだに　くみこませてもらった。<line>
+//おれをころせば、ナイトガンダムもいっしょに<$DB><line>
+//しぬことになるぞ！　さぁどうする！？」<$DB><line>
+//「みんな、きこえるか？<line>
+//ぼくだ、ナイトガンダムだ！！<line>
+//ぼくにかまわず、こいつをたおしてくれ！」<$DB><line>
+//「ハッハッハッ、はらのなかで<line>
+//なにをいってやがる。<line>
+//　そうだ、いいことを　おもいついたぞ。<$DB><line>
+//おまえたちも<line>
+//おれさまの　からだの　ぶひんにしてやろう。<$DB><line>
+//そうすれば、いつまでも、<line>
+//いっしょにいられるぞ。<line>
+//ハッハッハッ<$DB><line>
+//　どうした！？　そっちがこないなら、<line>
+//こっちからいくぞ！！」<$DB><end>
+"WAHAHAHAH! Too late,<line>
+suckers!<$DB><line>
+I've had Knight Gundam<line>
+dismantled,<$DB><line>
+and I used his parts to<line>
+enhance my body!<$DB><line>
+If you kill me, Knight<line>
+Gundam dies with me!<$DB><line>
+Whatchu gonna do about<line>
+it, huh?"<$DB><line>
+"Guys, can you hear me?<line>
+It's me, Knight Gundam!<$DB><line>
+Don't worry about me!<line>
+You must defeat<line>
+Debudedabide!"<$DB><line>
+"Hah, how cute!<line>
+My tummy's talking!<$DB><line>
+Actually, I've just had<line>
+a great idea.<$DB><line>
+After I defeat you,<line>
+I'll also use your parts<line>
+to enhance me further!<$DB><line>
+Then you'll all be<line>
+together forever,<$DB><line>
+inside the great<line>
+Debudedabide! Am I<line>
+nice or what?<$DB><line>
+What, you scared?<line>
+Don't worry, it won't<line>
+hurt me at all!<$DB><line>
+WAHAHAHAH!"<$DB><end>
+
+//[$0AA7DB]
+#W16($A98F4)
+//「すまん！ナイトガンダム。ゆるしてくれ、、<line>
+//このかたきは、かならず、、、<line>
+//、、、、おや！？」<$DB><end>
+"Forgive us, Knight<line>
+Gundam! Please, watch<line>
+over us.<$DB><line>
+We'll finish this for...<line>
+... huh?"<$DB><end>
+
+//[$0AA80B]
+#W16($A98F6)
+//「みんな、、、いまのたたかいをみてボクは<line>
+//かんどうしたよ。<line>
+//　へいわと、ゆうじょうを　たいせつにする<$DB><line>
+//そのこころを、わすれないと　やくそくして<line>
+//くれるなら、ボクのいのちと　ひきかえに、<line>
+//ナイトガンダムを、いきかえらせてあげる。」<$DB><line>
+//「！　しかし、そんなことをしたら<line>
+//キミのいのちが、、、」<$DB><line>
+//「いいんだ。さぁ、やるよ！<line>
+//ボクのぶんまで、がんばって、、、」<$DB><end>
+"I've witnessed your<line>
+battle, and I'm deeply<line>
+moved by your courage.<$DB><line>
+If you promise to always<line>
+treasure peace and<line>
+friendship,<$DB><line>
+I'll use my energy to<line>
+revive Knight Gundam."<$DB><line>
+"Wait! If you do that,<line>
+you will--"<$DB><line>
+"I sacrifice my life<line>
+willingly.<$DB><line>
+Go forth, heroes!<line>
+Do my share of the<line>
+fighting..."<$DB><end>
+
+//[$0AA8BF]
+#W16($A98F8)
+//　わくせいないぶにひろがる　ＭＳ<line>
+//けんきゅうじょを　はかいした６にん<line>
+//だっしゅつした　かれらのまえに<line>
+//　てきの　きょだいせんかんが<line>
+//そのすがたを　あらわした！！　　　　<$DD><end>
+The six brave heroes<line>
+destroyed the MS Labs that<line>
+stretched over the planet's<line>
+interior. After leaving they<line>
+finally sighted the enemy<line>
+gigantic warship!            <$DD><end>
+
+//[$0AA915]
+#W16($A98FA)
+//「このまえは、よくも　やってくれたな。<line>
+//おまえを　たおすため、うまれかわったからにはもう、やられはしない。」<$DB><end>
+"I am reborn for the<line>
+sole purpose of getting<line>
+revenge.<$DB><line>
+I won't be defeated<line>
+again."<$DB><end>
+
+//[$0AA94D]
+#W16($A98FC)
+//「われこそは、ア<$D9>ロガイスト！<line>
+//きさまらを、じごくへ　たたきおとすため<line>
+//いま、ここにふっかつ！！」<$DB><end>
+"My name is Apollo<line>
+Geist!<$DB><line>
+I've returned from Hell<line>
+to send you there in my<line>
+place!"<$DB><end>
+
+//[$0AA980]
+#W16($A98FE)
+//「ダークブレインさまにいただいた<line>
+//この<$D5>ワー。これさえあれば<line>
+//おまえたちなど　ひとひねりだ！」<$DB><end>
+"Lord Dark Brain has<line>
+made me stronger. You're<line>
+no match for me now!"<$DB><end>
+
+//[$0AA9B1]
+#W16($A9900)
+//「よくきたのう！　わしが、ぜんのうなる<line>
+//うちゅうのしはいしゃ、ダークブレインぢゃ。<line>
+//　いままでのことは、すべて、みずに<$DB><line>
+//ながしてやるからどーぢゃ！<line>
+//わしと、てを　くんでみないか？<line>
+//　なに？　ことわるぢゃと？！<$DB><line>
+//　かーっ！　なにをいっとるんだぁ！<line>
+//しかたない、おまえには　しんでもらうぞ」<$DB><end>
+"Welcome! I am Dark<line>
+Brain, almighty ruler<line>
+of the universe.<$DB><line>
+I bear no ill feelings<line>
+for your actions<line>
+against me.<$DB><line>
+Won't you join me?<line>
+You can be my new<line>
+generals!<$DB><line>
+...What? You refuse?!<$DB><line>
+You blasted pieces of<line>
+scrap metal! Pah! So<line>
+much for that trick!<$DB><line>
+I'm gonna have to do<line>
+this the good ol'<line>
+fashioned way. DIE!"<$DB><end>
+
+//[$0AAA44]
+#W16($A9902)
+//「なんだ！？<$DB><line>
+//きゅうに　ふねがゆれはじめたぞ！」<$DB><end>
+"What's going on?<$DB><line>
+The ship is shaking!"<$DB><end>
+
+//[$0AAA5F]
+#W16($A9904)
+//　ついに　しゅくてきダークブレインを<line>
+//うちやぶった　ＳＤヒーローたち　しかし<line>
+//ダークブレインほんたいと　れんどうして<line>
+//いた　せんかんは　しだいにほうかいを<line>
+//はじめた　　　　<$DD><end>
+Finally, the SD Heroes<line>
+defeated Dark Brain.<line>
+However, his vitals were<line>
+linked to the ship's self-<line>
+destruct. The battleship<line>
+began to crumble...            <$DD><end>
+
+//[$0AAAB7]
+#W16($A9906)
+//Ｖ３　　　「きけんだ！だっしゅつしよう」タロウ　　「もうすぐでぐちだ！」<line>
+//ガンダム　「みんないそげ！」　　　　<$DD><end>
+V3: "Oh no!"<line>
+Taro: "There's the exit!"<line>
+Gundam: "Let's hurry!"            <$DD><end>
+
+//[$0AAAF0]
+#W16($A9908)
+//　こうして　たたかいは　おわりをつげた<line>
+//ＳＤネイションにも<line>
+//へいわが　もどることだろう<line>
+//しかし　これで　おわったわけではない　<$DD><end>
+Thus, the battle was over.<line>
+The SD Nation found its<line>
+peace once again.<line>
+But this was not the end...<line>
+            <$DD><end>
+
+//[$0AAB31]
+#W16($A990A)
+//いつまた　だい２　だい３のダークブレインが　あらわれるかもしれないのだ<line>
+//そのひまで　しばらくの　きゅうそくを<line>
+//とるＳＤヒーローたちであった<line>
+//かれらのたたかいは　まだつづく、、、　　　　<$DD><end>
+Someday a second, or even a<line>
+third Dark Brain might<line>
+appear. They will have to<line>
+fight again... But for now,<line>
+they've earned some rest.<line>
+Thank you, SD Heroes!            <$DD><end>
+
+//[$0AAB8F]
+#W16($A990C)
+//「ありがとう！　みんな。<line>
+//ありがとう！！　ロア。<line>
+//きみのいのちはむだにしないよ。<$DB><line>
+//　６にんのちからをあわせて、かならず<line>
+//ダークブレインを、たおしてみせるよ。<line>
+//さぁ！いそごう！」<$DB><end>
+"Thank you, friends!<line>
+And thank you, Roar!<$DB><line>
+I'll never forget your<line>
+sacrifice!<$DB><line>
+Now that we're all<line>
+together, we shall smash<line>
+Dark Brain. Onward!"<$DB><end>
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C3200)
+___________Episode_1!___________
+
+#JMP($C3300)
+______Go Forth, SD Heroes!______
+
+#ACTIVETBL(ctbot)
+
+#JMP($C3240)
+___________Episode_1!___________
+
+#JMP($C3340)
+______Go Forth, SD Heroes!______
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C3A00)
+___________Episode_2!___________
+
+#JMP($C3B00)
+___________The Terror___________
+
+#JMP($C3BC0)
+______of Shocker's Return!______
+
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C3A40)
+___________Episode_2!___________
+
+#JMP($C3B40)
+___________The Terror___________
+
+#JMP($C3C00)
+______of Shocker's Return!______
+
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C4200)
+___________Episode_3!___________
+
+#JMP($C4300)
+_________Infiltrate the_________
+
+#JMP($C43C0)
+________Enemy Spaceship!________
+
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C4240)
+___________Episode_3!___________
+
+#JMP($C4340)
+_________Infiltrate the_________
+
+#JMP($C4400)
+________Enemy Spaceship!________
+
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C4A00)
+___________Episode_4!___________
+
+#JMP($C4B00)
+___Taro's Impending Execution___
+
+#JMP($C4BC0)
+_____at the Crystal Castle!_____
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C4A40)
+___________Episode_4!___________
+
+#JMP($C4B40)
+___Taro's Impending Execution___
+
+#JMP($C4C00)
+_____at the Crystal Castle!_____
+
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C5200)
+___________Episode_5!___________
+
+#JMP($C5300)
+_____The Hellish Lava Zone!_____
+
+#JMP($C53C0)
+_________Find A Way In!_________
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C5240)
+___________Episode_5!___________
+
+#JMP($C5340)
+_____The Hellish Lava Zone!_____
+
+#JMP($C5400)
+_________Find A Way In!_________
+
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C5A00)
+___________Episode_6!___________
+
+#JMP($C5B00)
+_______The Mad Designs of_______
+
+#JMP($C5BC0)
+__________the MS Labs!__________
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C5A40)
+___________Episode_6!___________
+
+#JMP($C5B40)
+_______The Mad Designs of_______
+
+#JMP($C5C00)
+__________the MS Labs!__________
+
+
+
+
+
+#ACTIVETBL(cttop)
+
+#JMP($C6200)
+___________Episode_7!___________
+
+#JMP($C6300)
+_________Bloody Battle!_________
+
+#JMP($C63C0)
+___Six Heroes Vs. Dark Brain!___
+
+
+#ACTIVETBL(ctbot)
+
+#JMP($C6240)
+___________Episode_7!___________
+
+#JMP($C6340)
+_________Bloody Battle!_________
+
+#JMP($C6400)
+___Six Heroes Vs. Dark Brain!___
+
+
