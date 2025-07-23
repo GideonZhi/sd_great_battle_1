@@ -59,7 +59,7 @@ dbtemp
 /openbios*
 dll/
 docs/
-*.tbl
+/*.tbl
 ext/
 *.txt_BAK
 logobits/
